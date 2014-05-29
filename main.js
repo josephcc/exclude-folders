@@ -38,7 +38,7 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/^(node_modules|\.gem|\..*)$/);
+        return !name.match(/^(node_modules|test|tmp|\.gem|\..*)$/);
 
     };
 });
